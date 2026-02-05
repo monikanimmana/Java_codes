@@ -1,4 +1,4 @@
-package HackerRank;
+package Hacker_Rank_Codes;
 import java.util.*;
 
 public class HR_end_of_file{

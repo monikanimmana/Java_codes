@@ -1,4 +1,4 @@
-package HackerRank.HackerRank_Codes;
+package Hacker_Rank_Codes;
 import java.io.*;
 import java.util.*;
 import java.text.*;
