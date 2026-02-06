@@ -3,7 +3,7 @@ package LeetCode.LeetCodes.Arrays;
 import java.util.Arrays;
 
 public class LC_26{
-    public void RemoveDublicate(){
+    public void RemoveDuplicate(){
         int [] arr = new int[]{1,1,2,3,3,4};
         int i;
         int k=0;
@@ -20,6 +20,6 @@ public class LC_26{
     }
     public static void main(String[] args) {
         LC_26 obj = new LC_26();
-        obj.RemoveDublicate();
+        obj.RemoveDuplicate();
     }
 }
