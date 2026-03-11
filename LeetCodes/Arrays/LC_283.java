@@ -3,7 +3,7 @@ import java.util.*;
 
 public class LC_283 {
     public void MoveZeros(){
-        int arr[] = new int[]{1,0,2,0,3,0,4};
+        int arr[] = new int[]{1, 0, 2, 0, 0, 4};
         int n = arr.length;
         int i=0;
         for(int k=0;k<n;k++){
