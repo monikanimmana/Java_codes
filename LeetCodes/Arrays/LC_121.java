@@ -8,29 +8,19 @@ public class LC_121 {
         for(int i=0;i<n;i++){
             for(int j=i+1;j<n;j++){
                 if(arr[i]<arr[j]){
-                    int buy = arr[i];
-                    int sell = arr[j];
-                    int profit = sell - buy;
+                    int profit = arr[i]-arr[j];
                     if(profit > final_p){
                         final_p = profit;
-
                     }
-
-
                 }
             }
         }
-        System.out.println(final_p);
-        
-
+            System.out.println(final_p);
         }
-            
-        
         public static void main(String[] args) {
             LC_121 obj = new LC_121();
             obj.profit_loss();
             
         }
-
     }
 
