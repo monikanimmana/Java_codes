@@ -22,7 +22,6 @@ public class LC_1004 {
         }
         return max_size;
         
-
     }
      public static void main(String[] args) {
         LC_1004 obj = new LC_1004();
