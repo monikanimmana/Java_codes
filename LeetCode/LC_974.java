@@ -1,6 +1,6 @@
 import java.util.HashMap;
 
-public class LC_924 {
+public class LC_974 {
     public int subarraysDivByK(int[] nums, int k) {
         HashMap<Integer,Integer> map=new HashMap<>();
         int count=0;
@@ -22,7 +22,7 @@ public class LC_924 {
         return count;
     }
     public static void main(String[] args) {
-        LC_924 obj = new LC_924();
+        LC_974 obj = new LC_974();
         int nums[] = new int[]{4,5,0,-2,-3,1};
         int k=5;
         System.out.println(obj.subarraysDivByK(nums,k));
