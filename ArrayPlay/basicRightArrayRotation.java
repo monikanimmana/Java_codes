@@ -6,7 +6,7 @@ public class basicRightArrayRotation {
     public int[] arrayrotate(int arr[],int k){
         int n= arr.length;
         int new_arr[] = new int[n];
-        for(int i=0;i<n;i--){
+        for(int i=0;i<n;i++){
             new_arr[(i+k)%n] = arr[i];
         }
         return new_arr;
