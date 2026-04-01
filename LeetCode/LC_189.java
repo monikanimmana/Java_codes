@@ -8,6 +8,8 @@ public class LC_189 {
         reverse(nums,0,n-1);
 
         reverse(nums,0,k-1);
+
+        reverse(nums,k,n-1);
     }
 
     public int[] reverse(int nums[],int start , int end){
