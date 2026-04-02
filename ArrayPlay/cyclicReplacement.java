@@ -20,8 +20,8 @@ public class cyclicReplacement{
     }
     public static void main(String[] args) {
         cyclicReplacement obj=new cyclicReplacement();
-        int nums[] = new int[]{1,2,3,4,5,6,7};
-        int k=3;
+        int nums[] = new int[]{1,2,3,4,5,6};
+        int k=2;
         System.out.println(Arrays.toString(obj.cyclicArray(nums, k)));
 
     }
