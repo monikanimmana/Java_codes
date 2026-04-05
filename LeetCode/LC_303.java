@@ -1,7 +1,5 @@
 import java.util.Arrays;
 
-import DSA_Java.ArrayPlay.prefixSum;
-
 public class LC_303 {
     public int[] Array(int arr[]){
         int n=arr.length;
