@@ -1,4 +1,4 @@
-package DSA_Java.ArrayPlay;
+
 public class palindrome {
    public boolean valid_palin(String str){
     int i=0;

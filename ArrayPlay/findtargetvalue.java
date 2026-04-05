@@ -1,4 +1,4 @@
-package DSA_Java.ArrayPlay;
+
 
 public class findtargetvalue {
     public int findvalue(int arr[],int target){

@@ -1,5 +1,4 @@
 
-package DSA_Java.ArrayPlay;
 import java.util.Arrays;
 
 public class cyclicReplacement{
