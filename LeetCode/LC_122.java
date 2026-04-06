@@ -1,6 +1,5 @@
 public class LC_122 {
     public int BuySell2(int nums[]){
-        int buyprice=nums[0];
         int max_price=0;
         for(int i=1;i<nums.length;i++){
             if(nums[i] > nums[i-1]){
