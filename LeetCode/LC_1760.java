@@ -21,7 +21,7 @@ public class LC_1760{
             operation+=(nums[i]-1)/ballcount;
 
             if(operation>maxoperations){
-                return false
+                return false;
             }
         }
         return true;
