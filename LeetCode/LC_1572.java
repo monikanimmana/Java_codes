@@ -1,0 +1,18 @@
+public class LC_1572{
+    public int diagonalSum(int[][] mat) {
+        int n=mat.length;
+        int sum=0;
+        for(int i=0;i<mat.length;i++){
+            sum+=mat[i][i];
+            if(i!=(n-i-1)){
+                sum+=mat[i][n-i-1];
+            }   
+        }
+        return sum;
+    }
+    public static void main(String[] args) {
+        LC_1572 obj=new LC_1572();
+        int nums[][]=new int[][]{{1,2,3},{4,5,6},{7,8,9}};
+        System.out.println(obj.diagonalSum(nums));
+    }
+}
