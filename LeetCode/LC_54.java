@@ -11,26 +11,23 @@ public class LC_54 {
         int k=0;
         while(left<=right && top<=bottom){
             for(int i=left;i<=right;i++){
-                result[k]=matrix[top][i];
-                k++;
+                result[k++]=matrix[top][i];
             }
             top++;
             for(int i=top;i<=bottom;i++){
-                result[k]=matrix[i][right];
-                k++;
+                result[k++]=matrix[i][right];
             }
             right--;
             if(top<=bottom){
                 for(int i=right;i>=left;i--){
-                    result[k]=matrix[bottom][i];
-                    k++;
+                    result[k++]=matrix[bottom][i];
                 }
                 bottom--;
             }
             if(left<=right){
                 for(int i=bottom;i>=top;i--){
-                    result[k]=matrix[i][left];
-                    k++;
+                    result[k++]=matrix[i][left];
+                    
                 }
                 left++;
             }
