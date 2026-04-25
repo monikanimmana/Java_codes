@@ -27,3 +27,17 @@ public class LC_50{
         System.out.println(obj.power(x, n));
     }
 }
+
+//optimal solution
+// long N=n;
+// if(N<0){
+//     x=1/x;
+//     N=-N;
+// }
+// while(N>0){
+//     if((N&1)==1){
+//         result*=x;
+//     }
+//     x*=x;
+//     N/=2;
+// }
