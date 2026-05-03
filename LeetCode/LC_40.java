@@ -15,7 +15,7 @@ public class LC_40 {
             result.add(new ArrayList<>(list));
             return;
         }
-        for(int i=index;i<candidate.length;i++){\
+        for(int i=index;i<candidate.length;i++){
 
             if(i>index && candidate[i]==candidate[i-1]) continue;
 
