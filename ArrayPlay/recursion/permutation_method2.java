@@ -18,7 +18,7 @@ public class permutation_method2 {
         for(int i=index;i<nums.length;i++){
 
             swap(i,index,nums);
-            backtrack(nums, i+1, result);
+            backtrack(nums, index+1, result);
             swap(i,index,nums);
 
         }        
