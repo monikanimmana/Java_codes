@@ -1,4 +1,4 @@
-package recursion;
+
 public class recursion_1 {
     public int sum(int n){
         if(n==0){

@@ -1,4 +1,4 @@
-package recursion;
+
 public class palindrom_recursion {
     public boolean palin(int i , int n , String str){
         if(i>=n/2){

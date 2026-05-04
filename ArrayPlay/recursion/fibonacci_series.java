@@ -1,4 +1,4 @@
-package recursion;
+
 public class fibonacci_series {
     public int fibo(int n){
         if(n==0) return 0;
