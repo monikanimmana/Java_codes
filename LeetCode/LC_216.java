@@ -6,35 +6,31 @@ public class LC_216 {
     List<List<Integer>> result=new ArrayList<>();
     List<Integer> list=new ArrayList<>();
     int index=1;
-    int count=0;
-    checksum(n , k , index , result , list,count);
+    checksum(n , k , index , result , list);
     return result;
     }
-    public void checksum(int n , int k , int index , List<List<Integer>> result, List<Integer> list , int count ){
-        if(n==0){
+    public void checksum(int n , int k , int index , List<List<Integer>> result, List<Integer> list){
+        if(n==0 && list.size()==k){
             result.add(new ArrayList<>(list));
             return;
         }
-        if(count==k){
-            return;
-        }
-        for(int i=index;i<9;i++){
 
-            if(i > n) break;
+        if(n<0 || list.size() > k) return;
 
-            if(list.add(i)) count++;
+        for(int i=index;i<=n;i++){
 
-            checksum(n-i, k, i+1, result, list, count);
+            if(i > n ) break;
 
+            list.add(i);
+            checksum(n-i, k, i+1, result, list);
             list.remove(list.size()-1);
-
-            count--;
-
-        }
+                
+        } 
     }
+    
     public static void main(String[] args) {
         LC_216 obj=new LC_216();
-        int n=8;
+        int n=9;
         int k=3;
         System.out.println(obj.combination3(n,k));
     }
