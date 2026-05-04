@@ -13,7 +13,6 @@ public class LC_77 {
             result.add(new ArrayList<>(list));
             return;
         }
-        if(list.size()>k) return;
 
         for(int i=index;i<=n;i++){
 
