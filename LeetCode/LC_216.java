@@ -17,7 +17,7 @@ public class LC_216 {
 
         if(n<0 || list.size() > k) return;
 
-        for(int i=index;i<=n;i++){
+        for(int i=index;i<=9;i++){
 
             if(i > n ) break;
 
