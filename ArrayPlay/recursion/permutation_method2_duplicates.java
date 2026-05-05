@@ -32,7 +32,8 @@ public class permutation_method2_duplicates {
     }
     public static void main(String[] args) {
         permutation_method2_duplicates obj=new permutation_method2_duplicates();
-        int nums[]=new int[]{1,1,2};
+        int nums[]=new int[]{1,2,3
+        };
         System.out.println(obj.duplicates(nums));
     }
 }
