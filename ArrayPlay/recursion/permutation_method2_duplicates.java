@@ -5,33 +5,30 @@ import java.util.Arrays;
 public class permutation_method2_duplicates {
     public List<List<Integer>> duplicates(int nums[]){
         List<List<Integer>> result=new ArrayList<>();
-        int index=0;
+        List<Integer> list=new ArrayList<>();
         Arrays.sort(nums);
-        backtrack(nums , index , result);
+        boolean used[]=new boolean[nums.length];
+        backtrack(nums ,result,used,list);
         return result;
 
     }
-    public void backtrack(int nums[] , int index , List<List<Integer>> result){
-        if(index==nums.length){
-            List<Integer> list=new ArrayList<>();
-            for(int num : nums) list.add(num);
+    public void backtrack(int nums[],List<List<Integer>> result ,boolean []used,List<Integer> list){
+        if(list.size() ==nums.length){
             result.add(new ArrayList<>(list));
             return;
         }
-        for(int i=index;i<nums.length;i++){
+        for(int i=0;i<nums.length;i++){
+            if(used[i]) continue;
 
-            if(i>index && nums[i]==nums[i-1]) continue;
+            if(i>0 && nums[i]==nums[i-1] && !used[i-1]) continue;
 
-            swap(i,index,nums);
-            backtrack(nums, index+1, result);
-            swap(i,index,nums);
+            used[i]=true;
+            list.add(nums[i]);
+            backtrack(nums,result,used,list);
+            list.remove(list.size()-1);
+            used[i]=false;
 
         }        
-    }
-    public void swap(int i , int index, int nums[]){
-        int temp=nums[i];
-        nums[i]=nums[index];
-        nums[index]=temp;
     }
     public static void main(String[] args) {
         permutation_method2_duplicates obj=new permutation_method2_duplicates();
