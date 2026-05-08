@@ -32,5 +32,10 @@ public class LC_131 {
         }
         return true;
     }
+    public static void main(String[] args) {
+        LC_131 obj = new LC_131();
+        String str="aabb";
+        System.out.println(obj.partition(str));
+    }
 }
 
