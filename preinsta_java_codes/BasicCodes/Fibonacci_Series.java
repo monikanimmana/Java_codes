@@ -5,13 +5,7 @@ public class Fibonacci_Series {
         int b=1;
         int c=0;
         System.out.print("Fibonacci series: " );
-        for(int i=0;i<=n;i++){
-            c=a+b;
-            a=b;
-            b=c;
-
-            
-        }
+       
         System.out.print(c);
     }
 

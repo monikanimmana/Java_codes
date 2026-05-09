@@ -1,6 +1,4 @@
-
-import java.util.*;
-
+ import java.util.Scanner;
 public class HR_end_of_file{
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
