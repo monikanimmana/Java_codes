@@ -4,7 +4,7 @@ public class rectangle_rhombus_star {
             for(int j=0;j<i;j++){
                 System.out.print(" ");
             }
-            for(int j=0;j<n;j++){
+            for(int j=0;j<col;j++){
                 System.out.print("*");
             }
             System.out.println();
@@ -19,4 +19,4 @@ public class rectangle_rhombus_star {
     
 }
 
-}
+
