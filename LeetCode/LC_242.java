@@ -46,7 +46,7 @@ public class LC_242 {
     public static void main(String[] args) {
         LC_242 obj=new LC_242();
         String str1="rat";
-        String str2="cat";
+        String str2="rat";
         System.out.println(obj.validanagram(str1,str2));
     }
 }
