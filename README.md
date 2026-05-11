@@ -204,21 +204,22 @@ public class TwoSum {
     }
 }
 
-Platform        Progress                          Solved
-─────────────────────────────────────────────────────────
-LeetCode        ████████░░░░░░░░░░░░   [  X / 2000+ ]
-GeeksforGeeks   ██████░░░░░░░░░░░░░░   [  X /  500+ ]
-HackerRank      █████░░░░░░░░░░░░░░░   [  X /  400+ ]
-Codio           ████░░░░░░░░░░░░░░░░   [  X /   N/A ]
-─────────────────────────────────────────────────────────
-Total           ███████░░░░░░░░░░░░░   [  X /  ∞    ]
+## 📈 Progress Tracker
 
-🔄 Updated regularly as new solutions are added.
+| Platform | Progress | Solved |
+|---|---|---|
+| 🟡 LeetCode | ![](https://img.shields.io/badge/progress-X%20%2F%202000%2B-2ea44f?style=flat-square) | X / 2000+ |
+| 🟢 GeeksforGeeks | ![](https://img.shields.io/badge/progress-X%20%2F%20500%2B-2ea44f?style=flat-square) | X / 500+ |
+| 🟩 HackerRank | ![](https://img.shields.io/badge/progress-X%20%2F%20400%2B-2ea44f?style=flat-square) | X / 400+ |
+| 🔵 Codio | ![](https://img.shields.io/badge/progress-X%20%2F%20N%2FA-8b8b8b?style=flat-square) | X / N/A |
 
-🛠️ Tech Stack
-Tool	Details
-Language	Java 17+
-IDE	IntelliJ IDEA / VS Code
-Build Tool	None (plain javac) — or Maven/Gradle if configured
-Version Control	Git + GitHub
-Platforms	LeetCode, GeeksforGeeks, HackerRank, Codio
+## 🛠️ Tech Stack
+
+| Tool | Details |
+|---|---|
+| **Language** | Java 17+ |
+| **IDE** | IntelliJ IDEA / VS Code |
+| **Build Tool** | None (plain `javac`) — or Maven/Gradle if configured |
+| **Version Control** | Git + GitHub |
+| **Platforms** | LeetCode, GeeksforGeeks, HackerRank, Codio |
+
