@@ -1,178 +1,153 @@
-
----
-
-## 🧠 Topics Covered
-
-### ☕ Java Fundamentals
-| Topic | Status |
-|-------|--------|
-| Syntax & Data Types | ✅ Done |
-| Loops & Conditionals | ✅ Done |
-| OOP (Classes, Objects, Inheritance) | ✅ Done |
-| Static Variables & Methods | ✅ Done |
-| String Manipulation | ✅ Done |
-
-### 📊 Arrays & Searching
-| Topic | Status |
-|-------|--------|
-| Array Basics & Rotations | ✅ Done |
-| Prefix Sum | ✅ Done |
-| Kadane's Algorithm | ✅ Done |
-| Sliding Window | ✅ Done |
-| Two Pointers | ✅ Done |
-| Binary Search | ✅ Done |
-| Binary Search on Answer | ✅ Done |
-| Matrix Problems | ✅ Done |
-
-### 🔁 Recursion & Backtracking
-| Topic | Status |
-|-------|--------|
-| Recursion Basics | ✅ Done |
-| Fibonacci & Power | ✅ Done |
-| Subsets & Combinations | ✅ Done |
-| Permutations (with/without duplicates) | ✅ Done |
-| Combination Sum | ✅ Done |
-
-### 🔢 Sorting Algorithms
-| Topic | Status |
-|-------|--------|
-| Bubble Sort | ✅ Done |
-| Insertion Sort | ✅ Done |
-| Selection Sort | ✅ Done |
-| Merge Sort | 🔄 In Progress |
-| Quick Sort | 🔄 In Progress |
-
-### 🗂️ Data Structures *(Coming Soon)*
-| Topic | Status |
-|-------|--------|
-| Linked List | 📌 Planned |
-| Stack & Queue | 📌 Planned |
-| HashMap & HashSet | 📌 Planned |
-| Trees & BST | 📌 Planned |
-| Graphs | 📌 Planned |
-| Heaps | 📌 Planned |
-
----
-
-## 🏆 Platforms & Practice
-
 <div align="center">
 
-| Platform | Profile | Focus |
-|----------|---------|-------|
-| 🟡 **LeetCode** | [leetcode.com](https://leetcode.com/) | Arrays, Binary Search, Recursion, Backtracking |
-| 🟢 **HackerRank** | [hackerrank.com](https://www.hackerrank.com/) | Java Basics, Data Structures |
-| 📊 **Codolio** | [codolio.com](https://codolio.com/) | Progress Tracking & Stats |
+# ☕ Java DSA & Competitive Programming Solutions
+
+[![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://www.java.com)
+[![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
+[![GeeksforGeeks](https://img.shields.io/badge/GeeksforGeeks-Solutions-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white)](https://geeksforgeeks.org)
+[![HackerRank](https://img.shields.io/badge/HackerRank-Solutions-00EA64?style=for-the-badge&logo=hackerrank&logoColor=black)](https://hackerrank.com)
+[![GitHub Stars](https://img.shields.io/github/stars/YOUR_USERNAME/YOUR_REPO_NAME?style=for-the-badge&logo=github&color=yellow)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/stargazers)
+[![GitHub Forks](https://img.shields.io/github/forks/YOUR_USERNAME/YOUR_REPO_NAME?style=for-the-badge&logo=github&color=blue)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/YOUR_USERNAME/YOUR_REPO_NAME?style=for-the-badge&logo=git&color=red)](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME/commits)
+[![License](https://img.shields.io/github/license/YOUR_USERNAME/YOUR_REPO_NAME?style=for-the-badge)](LICENSE)
+
+**A curated collection of Java solutions for DSA problems and competitive programming challenges — organized by platform, topic, and difficulty.**
 
 </div>
 
 ---
 
-## 📈 LeetCode Progress
+## 📌 About This Repository
 
-### Problems Solved by Category
+This repository is my personal knowledge base of **Data Structures & Algorithms** and **Competitive Programming** solutions, all written in **Java**.
 
-| Category | Problems Solved |
-|----------|----------------|
-| Arrays & Hashing | ✅ 30+ |
-| Two Pointers | ✅ 10+ |
-| Sliding Window | ✅ 8+ |
-| Binary Search | ✅ 15+ |
-| Recursion & Backtracking | ✅ 10+ |
-| Math & Bit Manipulation | ✅ 5+ |
-| **Total** | **🔥 100+** |
+- 🎯 **Purpose** — Sharpen problem-solving skills, prepare for technical interviews, and track progress across platforms
+- 📚 **Coverage** — Solutions span LeetCode, GeeksforGeeks, HackerRank, and Codio, organized for easy navigation
+- 🔍 **Usefulness** — Each solution is self-contained, compilable, and accompanied by the problem context in comments
+- 💡 **Approach** — Clean, readable Java code with a focus on optimal time and space complexity
 
-### Notable LeetCode Problems Solved
-
-| # | Problem | Difficulty | Topic |
-|---|---------|------------|-------|
-| 1 | Two Sum | 🟢 Easy | Arrays |
-| 11 | Container With Most Water | 🟡 Medium | Two Pointers |
-| 15 | 3Sum | 🟡 Medium | Two Pointers |
-| 33 | Search in Rotated Sorted Array | 🟡 Medium | Binary Search |
-| 39 | Combination Sum | 🟡 Medium | Backtracking |
-| 47 | Permutations II | 🟡 Medium | Backtracking |
-| 53 | Maximum Subarray | 🟢 Easy | Kadane's |
-| 74 | Search a 2D Matrix | 🟡 Medium | Binary Search |
-| 78 | Subsets | 🟡 Medium | Backtracking |
-| 90 | Subsets II | 🟡 Medium | Backtracking |
-| 152 | Maximum Product Subarray | 🟡 Medium | Arrays |
-| 153 | Find Minimum in Rotated Array | 🟡 Medium | Binary Search |
-| 216 | Combination Sum III | 🟡 Medium | Backtracking |
-| 238 | Product of Array Except Self | 🟡 Medium | Arrays |
-| 875 | Koko Eating Bananas | 🟡 Medium | Binary Search |
+Whether you're prepping for FAANG interviews or brushing up on fundamentals, this repo serves as a ready reference.
 
 ---
 
-## 🗂️ ArrayPlay Highlights
+## 📊 Stats Dashboard
 
-Key implementations inside the `ArrayPlay/` folder:
+| Platform | Problems Solved | Topics Covered | Difficulty Levels |
+|---|---|---|---|
+| LeetCode | `[COUNT]` | Arrays, DP, Graphs, Trees, Strings, Backtracking | Easy / Medium / Hard |
+| GeeksforGeeks | `[COUNT]` | Arrays, Linked Lists, Trees, Sorting, Hashing | School / Basic / Medium / Hard |
+| HackerRank | `[COUNT]` | Data Structures, Algorithms, Java Basics | Easy / Medium / Hard |
+| Codio | `[COUNT]` | Core Java, OOP, Assignments | — |
+| **Total** | **`[TOTAL]`** | **15+ DSA Topics** | **All Levels** |
 
-- 🔄 **Array Rotations** — Left & right cyclic rotation
-- 📈 **Kadane's Algorithm** — Max subarray sum & buy/sell stocks
-- 🔍 **Peak Element** — Find peak in unsorted array
-- 🧮 **Prefix Sum** — Range sum queries
-- 🔡 **String Frequency** — Character frequency counting
-- 🔁 **Palindrome Check** — Array-based palindrome
-- 🚫 **Move Zeros** — In-place zero shifting
-- 🗑️ **Remove Duplicates** — From sorted arrays
-- 🔢 **Binary Search Variants** — Kth element, rotated arrays
-- 🧩 **Matrix Problems** — Spiral order, search in matrix
-- 📐 **Sorting** — Insertion sort, bubble sort
-- 🌀 **Recursion** — Permutations, subsets, combinations
+> 💡 Counts reflect `.java` solution files. Update these as you add more solutions.
 
 ---
 
-## 🎯 Goals
 
-- [x] Build strong Java fundamentals
-- [x] Master array manipulation techniques
-- [x] Understand recursion and backtracking deeply
-- [x] Solve 100+ LeetCode problems
-- [ ] Complete all LeetCode Blind 75
-- [ ] Master Linked Lists, Trees, and Graphs
-- [ ] Reach LeetCode rating 1600+
-- [ ] Solve 200+ problems across all platforms
-- [ ] Be interview-ready for top tech companies
+## 🗂️ Repository Structure
+📦 java-dsa-solutions/ │ ├── 📁 LeetCode/ │ ├── 📁 Easy/ │ │ ├── TwoSum.java │ │ ├── ReverseString.java │ │ └── ... │ ├── 📁 Medium/ │ │ ├── LongestSubstringWithoutRepeating.java │ │ ├── AddTwoNumbers.java │ │ └── ... │ └── 📁 Hard/ │ ├── MedianOfTwoSortedArrays.java │ └── ... │ ├── 📁 GeeksforGeeks/ │ ├── 📁 Arrays/ │ ├── 📁 LinkedLists/ │ ├── 📁 Trees/ │ ├── 📁 DynamicProgramming/ │ ├── 📁 Graphs/ │ ├── 📁 Sorting/ │ └── 📁 Hashing/ │ ├── 📁 HackerRank/ │ ├── 📁 DataStructures/ │ │ ├── Arrays/ │ │ ├── LinkedLists/ │ │ └── Trees/ │ └── 📁 Algorithms/ │ ├── Sorting/ │ ├── Searching/ │ └── Greedy/ │ ├── 📁 Codio/ │ ├── 📁 Assignments/ │ └── 📁 Projects/ │ └── 📄 README.md
+
+
+> 📝 Structure reflects the actual organization of this repository. Folders are added as new problems are solved.
 
 ---
 
-## 🔮 Future Goals
+## 🧩 Topics & Concepts Covered
 
-- 📌 Add **Linked List** problems and implementations
-- 📌 Cover **Stack, Queue, and Deque** patterns
-- 📌 Deep dive into **Tree traversals** (BFS, DFS, BST)
-- 📌 Start **Graph algorithms** (Dijkstra, BFS, DFS, Union-Find)
-- 📌 Practice **Dynamic Programming** patterns
-- 📌 Add **Heap / Priority Queue** problems
-- 📌 Organize solutions with **time & space complexity** notes
-- 📌 Add a **topic-wise LeetCode tracker** sheet
+- [x] Arrays & Strings
+- [x] Linked Lists
+- [x] Stacks & Queues
+- [x] Trees & Binary Search Trees
+- [x] Graphs (BFS / DFS)
+- [x] Dynamic Programming
+- [x] Recursion & Backtracking
+- [x] Sorting & Searching
+- [x] Hashing & Hash Maps
+- [x] Greedy Algorithms
+- [x] Two Pointers / Sliding Window
+- [x] Bit Manipulation
+- [x] Heaps & Priority Queues
+- [ ] Tries
+- [ ] Segment Trees
 
----
-
-## 💪 Motivation
-
-> *"Every expert was once a beginner. Every pro was once an amateur."*
-
-DSA is not about memorizing solutions — it's about training your mind to **think systematically** under pressure. This repo is proof of that daily practice. Whether it's a 5-minute easy problem or a 2-hour medium grind, every commit here is a step closer to cracking that dream interview.
-
-**Keep going. Keep coding. 🔥**
-
----
-
-## 🛠️ Tech Stack
-
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+> ✅ Checked topics have at least one solution in the repo. Unchecked are planned.
 
 ---
 
-<div align="center">
+## 🔗 Platform Profiles
 
-### ⭐ If this repo helps or inspires you, consider giving it a star!
+| Platform | Profile Link |
+|---|---|
+| 🟡 LeetCode | [Your LeetCode Profile](https://leetcode.com/YOUR_USERNAME) |
+| 🟢 GeeksforGeeks | [Your GFG Profile](https://auth.geeksforgeeks.org/user/YOUR_USERNAME) |
+| 🟩 HackerRank | [Your HackerRank Profile](https://www.hackerrank.com/YOUR_USERNAME) |
+| 🔵 Codio | [Codio](https://codio.com) |
 
-**Made with ❤️ by [Monika Nimmana](https://github.com/monikanimmana)**
+---
 
-</div>
+## 🚀 How to Run Solutions Locally
+
+### Prerequisites
+- Java 17+ installed → [Download JDK](https://adoptium.net/)
+- Git installed → [Download Git](https://git-scm.com/)
+
+### Steps
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+
+# 2. Navigate into the repo
+cd YOUR_REPO_NAME
+
+# 3. Go to the solution you want to run
+cd LeetCode/Medium/
+
+# 4. Compile the Java file
+javac TwoSum.java
+
+# 5. Run it
+java TwoSum
+
+// File: LeetCode/Easy/TwoSum.java
+import java.util.HashMap;
+
+public class TwoSum {
+    public int[] twoSum(int[] nums, int target) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                return new int[]{map.get(complement), i};
+            }
+            map.put(nums[i], i);
+        }
+        return new int[]{};
+    }
+
+    public static void main(String[] args) {
+        TwoSum sol = new TwoSum();
+        int[] result = sol.twoSum(new int[]{2, 7, 11, 15}, 9);
+        System.out.println(result[0] + ", " + result[1]); // Output: 0, 1
+    }
+}
+
+Platform        Progress                          Solved
+─────────────────────────────────────────────────────────
+LeetCode        ████████░░░░░░░░░░░░   [  X / 2000+ ]
+GeeksforGeeks   ██████░░░░░░░░░░░░░░   [  X /  500+ ]
+HackerRank      █████░░░░░░░░░░░░░░░   [  X /  400+ ]
+Codio           ████░░░░░░░░░░░░░░░░   [  X /   N/A ]
+─────────────────────────────────────────────────────────
+Total           ███████░░░░░░░░░░░░░   [  X /  ∞    ]
+
+🔄 Updated regularly as new solutions are added.
+
+🛠️ Tech Stack
+Tool	Details
+Language	Java 17+
+IDE	IntelliJ IDEA / VS Code
+Build Tool	None (plain javac) — or Maven/Gradle if configured
+Version Control	Git + GitHub
+Platforms	LeetCode, GeeksforGeeks, HackerRank, Codio
