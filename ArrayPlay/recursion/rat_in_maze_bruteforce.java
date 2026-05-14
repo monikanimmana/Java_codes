@@ -44,7 +44,7 @@ public class rat_in_maze_bruteforce {
         }
     }
     public static void main(String[] args) {
-        rat_in_maze obj=new rat_in_maze();
+        rat_in_maze_bruteforce obj=new rat_in_maze_bruteforce();
         int [][]maze=new int[][]{{1,0,0,0},{1,1,0,1},{1,1,0,0},{0,1,1,1}};
         obj.ratmaze(maze); 
     }
