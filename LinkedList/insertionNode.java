@@ -50,6 +50,31 @@ public class insertionNode {
         temp.next=new Node(data);
         return head;
     }
+    public Node insertatindex(Node head, int k, int data){
+        Node newnode = new Node(data);
+        if(head==null){
+            return null;
+        }
+        if(k==0){
+            newnode.next=head;
+            head=newnode;
+            return head;
+        }
+        Node temp=head;
+        Node prev=null;
+        int count=0;
+        while(temp!=null){
+            if(count == k-1){
+                prev.next =newnode;
+                newnode.next=temp;
+                break;
+            }
+            prev=temp;
+            temp=temp.next;
+            count++;
+        }
+        return head;
+    }
     public static void main(String[] args) {
         insertionNode obj=new insertionNode();
         int arr[] = new int[]{1,2,3,4,5,6,7,8,9};
@@ -58,6 +83,8 @@ public class insertionNode {
         head=obj.insertbegin(head, 10);
         traversal(head);
         head=obj.insertend(head, 20);
+        traversal(head);
+        head=obj.insertatindex(head, 3, 40);
         traversal(head);
     }
 }
